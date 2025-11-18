@@ -4,6 +4,7 @@ Business use case : A pizza chain company ask us to optimize their promotion pol
 # Project README
 
 ---
+<img width="1014" height="528" alt="Pres" src="https://github.com/user-attachments/assets/1d649a08-0cf8-4aaf-8b15-8f895f22b6ba" />
 
 
 ## Business Use Case
