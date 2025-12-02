@@ -1,16 +1,6 @@
-# Optimizing-a-Pizza-Chain-Promotion-Policy
-Business use case : A pizza chain company ask us to optimize their promotion policy. 
-
-# Project README
-
----
-<img width="1014" height="528" alt="Pres" src="https://github.com/user-attachments/assets/1d649a08-0cf8-4aaf-8b15-8f895f22b6ba" />
-
-Here is a comprehensive README file based on the analysis of your Jupyter Notebook. You can copy and paste this directly into your GitHub repository as `README.md`.
-
------
-
 # 🍕 Pizza Chain Promotion Optimization
+
+<img width="1014" height="528" alt="Pres" src="https://github.com/user-attachments/assets/1d649a08-0cf8-4aaf-8b15-8f895f22b6ba" />
 
 ## Overview
 
