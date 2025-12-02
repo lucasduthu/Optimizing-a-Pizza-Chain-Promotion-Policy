@@ -12,13 +12,13 @@ Here is a comprehensive README file based on the analysis of your Jupyter Notebo
 
 # 🍕 Pizza Chain Promotion Optimization
 
-## 📖 Overview
+## Overview
 
 This project focuses on optimizing the promotion policy for a fictional pizza restaurant chain. Using a synthetic dataset spanning historical sales from 1995 to 2024, the project applies Time Series Analysis and Machine Learning to determine the optimal discount level (0% to 50%) to apply on any given day to maximize revenue.
 
 The goal is to transition from a "random" promotion strategy to a data-driven "optimized" strategy for the year 2025.
 
-## 💼 Business Context & Assumptions
+## Business Context & Assumptions
 
 **Objective:** A pizza chain has asked for an optimization of their promotion policy to maximize profit.
 
@@ -29,7 +29,7 @@ The goal is to transition from a "random" promotion strategy to a data-driven "o
   * **Historical Context:** The company previously placed promotions randomly with varying intensities (10%, 20%, 50%).
   * **Exclusions:** Exceptional events (holidays, sports finals) and geographic cannibalization between store locations are excluded from this model.
 
-## 📂 Dataset Description
+## Dataset Description
 
 The analysis uses `simulated_retail_data.csv`, containing **219,000 entries** representing daily sales data for various pizza products.
 
@@ -43,7 +43,7 @@ The analysis uses `simulated_retail_data.csv`, containing **219,000 entries** re
 | `initial_price`| Base price before discount |
 | `sell_price` | Final price after promotion applied |
 
-## 🛠️ Methodology
+## Methodology
 
 ### 1\. Exploratory Data Analysis (EDA) & Feature Engineering
 
@@ -67,14 +67,14 @@ The analysis uses `simulated_retail_data.csv`, containing **219,000 entries** re
   * **Scenario Generation:** For the target year (2025), the model simulated sales scenarios for every product for every day under different promotion regimes (0%, 5%, 10% ... 50%).
   * **Maximization:** Calculated projected Revenue for each scenario and selected the promotion level that yielded the highest return.
 
-## 🚀 Results
+## Results
 
 The project compares the historical average profit (Non-optimized) against the projected 2025 profit (Optimized).
 
   * **Strategy:** The model identifies specific days where demand elasticity suggests a promotion will drive enough volume to offset the lower margin, and days where full price yields better returns.
   * **Outcome:** The final visualization demonstrates the potential growth percentage by switching to the optimized schedule.
 
-## 📦 Dependencies
+## Dependencies
 
 To run this project, you will need the following libraries:
 
@@ -82,27 +82,6 @@ To run this project, you will need the following libraries:
 pip install pandas numpy matplotlib seaborn statsmodels scikit-learn scipy tqdm
 ```
 
-## 🖥️ Usage
-
-1.  Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/pizza-promo-optimization.git
-    ```
-2.  Navigate to the project directory:
-    ```bash
-    cd pizza-promo-optimization
-    ```
-3.  Run the Jupyter Notebook:
-    ```bash
-    jupyter notebook Pizza_Chain_Promotion_Optimization.ipynb
-    ```
-
-## 🔮 Future Improvements
-
-  * **Cost Integration:** Incorporate ingredient and labor costs to optimize for *Net Margin* rather than just *Revenue*.
-  * **Event Data:** Integrate calendar API data to account for holidays and major sporting events.
-  * **Cannibalization:** Analyze if promoting one pizza type reduces sales of another (cross-elasticity).
-
-## ⚠️ Disclaimer
+## Disclaimer
 
 This work is applied to a synthetic dataset for educational and theoretical demonstration purposes. Real-world application would require further validation against actual operational costs and constraints.
